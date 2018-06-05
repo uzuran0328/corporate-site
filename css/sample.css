@@ -98,14 +98,15 @@ header {
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     #cover_area {
       background-image: url("../images/top/cover@2x.jpg"); } }
+  @media (min-width: 551px) {
+    #cover_area {
+      text-align: left;
+      height: 420px;
+      padding: 0; }
+      #cover_area img {
+        margin-top: 180px;
+        margin-left: 70px; } }
 
-@media (min-width: 551px) {
-  text-align: left;
-  height: 420px;
-  padding: 0;
-  img {
-    margin-top: 180px;
-    margin-left: 70px; } }
 #service_area {
   padding-top: 20px; }
   @media (min-width: 551px) {
